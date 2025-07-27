@@ -208,7 +208,7 @@ def calc_distances():
                 distances[(nx, ny)] = distances[(x, y)] + 1
                 queue.append((nx, ny))
 
-# Initialize and run the application
+# Initialize & run the application
 create_ui()
 init_grid()
 root.mainloop()
